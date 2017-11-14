@@ -33,9 +33,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox_Navn = new System.Windows.Forms.TextBox();
+            this.textBox_Kode = new System.Windows.Forms.TextBox();
+            this.textBox_GentagKode = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_Tilbage
@@ -56,6 +56,7 @@
             this.btn_Register.TabIndex = 1;
             this.btn_Register.Text = "Register";
             this.btn_Register.UseVisualStyleBackColor = true;
+            this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
             // 
             // label1
             // 
@@ -84,35 +85,37 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Gentag kode";
             // 
-            // textBox1
+            // textBox_Navn
             // 
-            this.textBox1.Location = new System.Drawing.Point(53, 26);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
+            this.textBox_Navn.Location = new System.Drawing.Point(53, 26);
+            this.textBox_Navn.Name = "textBox_Navn";
+            this.textBox_Navn.Size = new System.Drawing.Size(100, 20);
+            this.textBox_Navn.TabIndex = 5;
             // 
-            // textBox2
+            // textBox_Kode
             // 
-            this.textBox2.Location = new System.Drawing.Point(53, 59);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
+            this.textBox_Kode.Location = new System.Drawing.Point(53, 59);
+            this.textBox_Kode.Name = "textBox_Kode";
+            this.textBox_Kode.Size = new System.Drawing.Size(100, 20);
+            this.textBox_Kode.TabIndex = 6;
+            this.textBox_Kode.UseSystemPasswordChar = true;
             // 
-            // textBox3
+            // textBox_GentagKode
             // 
-            this.textBox3.Location = new System.Drawing.Point(88, 93);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
+            this.textBox_GentagKode.Location = new System.Drawing.Point(88, 93);
+            this.textBox_GentagKode.Name = "textBox_GentagKode";
+            this.textBox_GentagKode.Size = new System.Drawing.Size(100, 20);
+            this.textBox_GentagKode.TabIndex = 7;
+            this.textBox_GentagKode.UseSystemPasswordChar = true;
             // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 204);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_GentagKode);
+            this.Controls.Add(this.textBox_Kode);
+            this.Controls.Add(this.textBox_Navn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -132,8 +135,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox_Navn;
+        private System.Windows.Forms.TextBox textBox_Kode;
+        private System.Windows.Forms.TextBox textBox_GentagKode;
     }
 }

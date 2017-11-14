@@ -21,3 +21,15 @@ C:\Users\Nikolaj\Desktop\source\repos\KlasseKasse\KlasseKasse\obj\Debug\KlasseKa
 C:\Users\Nikolaj\Desktop\source\repos\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.Properties.Resources.resources
 C:\Users\Nikolaj\Desktop\source\repos\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.Register.resources
 C:\Users\Nikolaj\Desktop\source\repos\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\bin\Debug\KlasseKasse.exe.config
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\bin\Debug\KlasseKasse.exe
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\bin\Debug\KlasseKasse.pdb
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.csprojResolveAssemblyReference.cache
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.Konto.resources
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.Main.resources
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.Properties.Resources.resources
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.Register.resources
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.csproj.GenerateResource.Cache
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.exe
+C:\Users\PC\Desktop\KlasseKassen\KlasseKasse\KlasseKasse\obj\Debug\KlasseKasse.pdb

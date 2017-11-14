@@ -16,7 +16,7 @@ namespace KlasseKasse
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Konto());
+            Application.Run(new Main());
         }
     }
 }
